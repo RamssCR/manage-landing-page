@@ -1,0 +1,57 @@
+/* Siempre importa la fuente primero antes que tailwind. */
+@import "tailwindcss";
+
+:root {
+  /* 
+    Variables para paleta de colores. Los colores neutrales no llevan un prefijo.
+  */
+  --color-bg: #f9f9f9;
+  --color-contrast: #1e1e1e;
+  --color-muted: #6b7280;
+  --color-accent: #4f46e5;
+  --color-foreground: #111827;
+
+  /* Colores de marca */
+  --color-primary-bg: #1e3a8a;
+  --color-primary-contrast: #ffffff;
+  --color-primary-muted: #4f46e5;
+  --color-primary-accent: #7c76f8;
+  --color-primary-foreground: #000546;
+
+  --color-secondary: #4f46e5; /* Si los hay */
+  /* Y así hasta definir todos los colores necesarios */
+
+  /* También es ideal definir colores inmutables como colores comunes. Ejemplo: claro y oscuro */
+  --color-light: #ffffff;
+  --color-dark: #000000;
+  --color-success: #4caf50;
+  --color-error: #f44336;
+  --color-warning: #ff9800;
+  --color-info: #2196f3;
+}
+
+/* Las variables las agregamos al `@theme` de tailwind para crearlas a nivel de compilacion */
+@theme {
+  --color-bg: var(--color-bg);
+  --color-contrast: var(--color-contrast);
+  --color-muted: var(--color-muted);
+  --color-accent: var(--color-accent);
+  --color-foreground: var(--color-foreground);
+
+  --color-primary-bg: var(--color-primary-bg);
+  --color-primary-contrast: var(--color-primary-contrast);
+  --color-primary-muted: var(--color-primary-muted);
+  --color-primary-accent: var(--color-primary-accent);
+  --color-primary-foreground: var(--color-primary-foreground);
+
+  --color-secondary: var(--color-secondary);
+
+  --color-light: var(--color-light);
+  --color-dark: var(--color-dark);
+  --color-success: var(--color-success);
+  --color-error: var(--color-error);
+  --color-warning: var(--color-warning);
+  --color-info: var(--color-info);
+
+  --font-family-base: 'Inter', sans-serif; /* Aqui puedes agregar la fuente que obtengas de, por ejemplo, Google Fonts */
+}
