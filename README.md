@@ -1,6 +1,6 @@
 # Frontend Mentor - Manage landing page
 
-![Design preview for the Manage landing page coding challenge](preview.jpg)
+![Design preview for the Manage landing page coding challenge](./public/images/preview.jpg)
 
 ## Welcome! 👋
 
