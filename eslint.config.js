@@ -20,7 +20,7 @@ export default defineConfig([
     ],
     files: ['**/*.{js,jsx}'],
     languageOptions: {
-      ecmaVersion: 2020,
+      ecmaVersion: 'latest',
       globals: globals.browser,
       parserOptions: {
         ecmaFeatures: { jsx: true },
@@ -34,7 +34,14 @@ export default defineConfig([
       'sort-keys': 'off',
       'no-ternary': 'off',
       'curly': 'off',
-      'consistent-return': 'off'
+      'consistent-return': 'off',
+      'no-debugger': 'off',
+      'one-var': 'off',
+    },
+    settings: {
+      react: {
+        version: 'detect',
+      },
     },
   },
 ])
