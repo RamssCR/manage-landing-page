@@ -1,36 +1,42 @@
-/* Siempre importa la fuente primero antes que tailwind. */
+@import url('https://fonts.google.com/specimen/Be+Vietnam+Pro');
 @import "tailwindcss";
 
 :root {
-  /* 
-    Variables para paleta de colores. Los colores neutrales no llevan un prefijo.
-  */
-  --color-bg: #f9f9f9;
-  --color-contrast: #1e1e1e;
-  --color-muted: #6b7280;
-  --color-accent: #4f46e5;
-  --color-foreground: #111827;
 
-  /* Colores de marca */
-  --color-primary-bg: #1e3a8a;
+  --color-orange-400: hsl(12, 88%, 59%);
+  --color-blue-950: hsl(228, 39%, 23%);
+
+  --color-gray-950: hsl(233, 12%, 13%);
+  --color-orange-50: hsl(13, 100%, 96%);
+  --color-gray-50: hsl(0, 0%, 98%);
+
+  --color-bg: var(--color-gray-50);
+  --color-contrast: var(--color-gray-950);
+  --color-muted: var(--color-blue-950);
+  --color-accent: var(--color-orange-400);
+  --color-foreground: var(--color-gray-950);
+
+  --color-primary-bg: var(--color-blue-950);
   --color-primary-contrast: #ffffff;
-  --color-primary-muted: #4f46e5;
-  --color-primary-accent: #7c76f8;
-  --color-primary-foreground: #000546;
+  --color-primary-muted: var(--color-blue-950);
+  --color-primary-accent: var(--color-orange-400);
+  --color-primary-foreground: #ffffff;
 
-  --color-secondary: #4f46e5; /* Si los hay */
-  /* Y así hasta definir todos los colores necesarios */
+  --color-secondary: var(--color-orange-400);
 
-  /* También es ideal definir colores inmutables como colores comunes. Ejemplo: claro y oscuro */
+  --color-background-light: var(--color-orange-50);
+  --color-background-dark: var(--color-blue-950);
+
   --color-light: #ffffff;
   --color-dark: #000000;
   --color-success: #4caf50;
   --color-error: #f44336;
   --color-warning: #ff9800;
   --color-info: #2196f3;
+
+  --font-size-base: 16px;
 }
 
-/* Las variables las agregamos al `@theme` de tailwind para crearlas a nivel de compilacion */
 @theme {
   --color-bg: var(--color-bg);
   --color-contrast: var(--color-contrast);
@@ -46,6 +52,9 @@
 
   --color-secondary: var(--color-secondary);
 
+  --color-background-light: var(--color-background-light);
+  --color-background-dark: var(--color-background-dark);
+
   --color-light: var(--color-light);
   --color-dark: var(--color-dark);
   --color-success: var(--color-success);
@@ -53,5 +62,20 @@
   --color-warning: var(--color-warning);
   --color-info: var(--color-info);
 
-  --font-family-base: 'Inter', sans-serif; /* Aqui puedes agregar la fuente que obtengas de, por ejemplo, Google Fonts */
+  /* Configuración de tipografía según el style guide */
+  --font-family-base: 'Be Vietnam Pro', sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+  --font-size-base: var(--font-size-base);
+}
+
+body {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--color-foreground);
+  background-color: var(--color-bg);
+  background-image: none;
 }
