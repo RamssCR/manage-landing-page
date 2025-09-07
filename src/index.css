@@ -1,8 +1,7 @@
-@import url('https://fonts.google.com/specimen/Be+Vietnam+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 @import "tailwindcss";
 
 :root {
-
   --color-orange-400: hsl(12, 88%, 59%);
   --color-blue-950: hsl(228, 39%, 23%);
 
@@ -79,3 +78,4 @@ body {
   background-color: var(--color-bg);
   background-image: none;
 }
+
