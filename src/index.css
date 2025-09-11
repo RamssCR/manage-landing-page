@@ -2,7 +2,6 @@
 @import "tailwindcss";
 
 :root {
-
   --color-orange-400: hsl(12, 88%, 59%);
   --color-blue-950: hsl(228, 39%, 23%);
 
@@ -79,3 +78,7 @@ body {
   background-color: var(--color-bg);
   background-image: none;
 }
+
+=========
+}
+>>>>>>>>> Temporary merge branch 2
