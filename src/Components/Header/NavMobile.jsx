@@ -1,6 +1,10 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import navLinks from './navLinks.data'
 
+/** Navmobile component
+ * @returns {import('react').JSX.Element}
+ */
+
 export default function NavMobile({ open }) {
   return (
     <AnimatePresence>
@@ -27,7 +31,7 @@ export default function NavMobile({ open }) {
                 <li key={href}>
                   <a
                     href={href}
-                    className="hover:text-orange-400 transition-colors"
+                    className="hover:text-accent transition-colors"
                   >
                     {label}
                   </a>
