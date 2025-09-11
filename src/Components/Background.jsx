@@ -26,5 +26,4 @@ const BackgroundCTA = () => (
   />
 )
 
-export default Background
-export { Background2, BackgroundCTA }
+export { Background, Background2, BackgroundCTA }

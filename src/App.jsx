@@ -1,4 +1,4 @@
-import Background, { Background2 } from './Components/Background'
+import { Background, Background2 } from './Components/Background'
 import Footer from './Components/Footer/Footer'
 import Header from './Components/Header/Header'
 import Home from './Components/Body/Home'

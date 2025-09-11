@@ -6,7 +6,8 @@ import Testimonials from './Testimonials'
 import TestimonialsMobile from './TestimonialsMobile'
 
 /**
- * @returns {import('react').JSX.Element}
+ * Componente Home principal de la página.
+ * @returns {import('react').JSX.Element} Componente Home.
  */
 
 const Home = () => (

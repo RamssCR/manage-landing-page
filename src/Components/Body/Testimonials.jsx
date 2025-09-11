@@ -1,8 +1,9 @@
-/**
- * @returns {import('react').JSX.Element}
- */
+import testimonials from '../../data/testimonials.data'
 
-import testimonials from './testimonials.data'
+/**
+ * Componente Testimonials para mostrar testimonios.
+ * @returns {import('react').JSX.Element} Componente Testimonials.
+ */
 
 export default function Testimonials() {
   return (
@@ -17,23 +18,23 @@ export default function Testimonials() {
         {testimonials.map(({ id, name, role, avatar, text }) => (
           <div
             key={id}
-            className="relative text-center max-w-[600px] mx-auto bg-gray-200 rounded-lg p-6 pt-12"
+            className="relative text-center max-w-[600px] mx-auto bg-secondary-bg rounded-lg p-6 pt-12"
           >
             <img
               src={avatar}
               alt={name}
               className="w-16 h-16 rounded-full mx-auto mb-4 absolute -top-8 left-1/2 transform -translate-x-1/2"
             />
-            <p className="text-gray-400 mb-4">"{text}"</p>
+            <p className="text-paragraph mb-4">"{text}"</p>
             <h3 className="font-bold text-primary-bg">{name}</h3>
-            <span className="text-gray-400">{role}</span>
+            <span className="text-paragraph">{role}</span>
           </div>
         ))}
       </div>
       <div className="text-center mt-12">
         <button
           type="button"
-          className="cursor-pointer bg-orange-400 hover:bg-orange-500 text-white px-6 py-3 rounded-full font-semibold transition-colors"
+          className="cursor-pointer shadow-lg shadow-shadow bg-accent hover:bg-accent text-light px-6 py-3 rounded-full font-semibold transition-colors"
         >
           Get Started
         </button>

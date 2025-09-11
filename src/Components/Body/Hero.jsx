@@ -1,5 +1,6 @@
 /**
- * @returns {import('react').JSX.Element}
+ * Componente Hero para la sección principal.
+ * @returns {import('react').JSX.Element} Componente Hero.
  */
 
 export default function Hero() {
@@ -10,13 +11,13 @@ export default function Hero() {
           <h1 className="text-[50px] text-center md:text-left font-extrabold text-primary-bg leading-tight mb-6">
             Bring everyone together to build better products.
           </h1>
-          <p className="text-gray-400 text-[20px] mb-8">
+          <p className="text-paragraph text-[20px] mb-8">
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
           <button
             type="button"
-            className=" md:block shadow-lg cursor-pointer shadow-red-300 bg-orange-400 hover:bg-orange-500 text-white px-6 py-3 rounded-full font-semibold transition-colors"
+            className=" md:block shadow-lg cursor-pointer shadow-shadow bg-accent hover:bg-accent text-light px-6 py-3 rounded-full font-semibold transition-colors"
           >
             Get Started
           </button>
