@@ -1,10 +1,20 @@
 import testimonials from '../../data/testimonials.data'
 
 /**
- * Componente Testimonials para mostrar testimonios.
- * @returns {import('react').JSX.Element} Componente Testimonials.
+ * @typedef {object} Testimonial
+ * @property {number|string} id - id único
+ * @property {string} avatar - URL del avatar del autor
+ * @property {string} name - Nombre de la persona
+ * @property {string} role - Rol o cargo de la persona
+ * @property {string} text - Texto del testimonio
  */
 
+/**
+ * Componente 'Testimonials'
+ * @returns {import('react').JSX.Element}
+ * @example
+ * <TestimonialS />
+ */
 export default function Testimonials() {
   return (
     <section className="testimonials mt-20">

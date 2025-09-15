@@ -1,10 +1,9 @@
+import { BackgroundCTA } from '@Components/Background'
+
 /**
  * Componente CTA para llamada a la acción.
  * @returns {import('react').JSX.Element} Componente CTA.
  */
-
-import { BackgroundCTA } from '@Components/Background'
-
 export default function CTA() {
   return (
     <section className="bg-accent text-light py-16 mt-20 relative overflow-hidden">

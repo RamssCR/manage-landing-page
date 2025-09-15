@@ -7,6 +7,7 @@ import { features } from '/src/data/features.data.js'
  * @param {string} props.title - Título de la característica
  * @param {string} props.description - Descripción de la característica
  * @returns {import('react').JSX.Element}
+ * @example
  */
 const FeatureItem = ({ number, title, description }) => (
   <section className="flex flex-col sm:flex-row sm:items-start sm:gap-5 mb-8">

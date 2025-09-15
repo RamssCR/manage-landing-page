@@ -2,7 +2,6 @@
  * Componente FeaturesTitle para el título de la sección de características.
  * @returns {import('react').JSX.Element} Componente FeaturesTitle.
  */
-
 export default function FeaturesTitle() {
   return (
     <section>

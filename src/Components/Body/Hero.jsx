@@ -2,7 +2,6 @@
  * Componente Hero para la sección principal.
  * @returns {import('react').JSX.Element} Componente Hero.
  */
-
 export default function Hero() {
   return (
     <div className="flex justify-center">
