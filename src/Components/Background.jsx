@@ -9,7 +9,9 @@ const Background = () => (
     alt="bg"
   />
 )
-
+/**
+ * Tableta background de la section testimonials
+ */
 const Background2 = () => (
   <img
     className="absolute top-[1400px] -left-[500px] -z-10 w-[1000px] h-auto"
@@ -17,7 +19,9 @@ const Background2 = () => (
     alt="bg-2"
   />
 )
-
+/**
+ * Tableta background de la section CTA del home
+ */
 const BackgroundCTA = () => (
   <img
     className="absolute -top-10 right-60 md:right-130 z-10 opacity-10 brightness-150 w-[600px] h-auto"
@@ -26,5 +30,4 @@ const BackgroundCTA = () => (
   />
 )
 
-export default Background
-export { Background2, BackgroundCTA }
+export { Background, Background2, BackgroundCTA }
