@@ -7,7 +7,6 @@ import { useState } from 'react'
 /** Header component
  * @returns {import('react').JSX.Element}
  */
-
 export default function Header() {
   const [open, setOpen] = useState(false)
 

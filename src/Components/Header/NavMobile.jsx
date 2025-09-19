@@ -4,7 +4,6 @@ import navLinks from './navLinks.data'
 /** Navmobile component
  * @returns {import('react').JSX.Element}
  */
-
 export default function NavMobile({ open }) {
   return (
     <AnimatePresence>
