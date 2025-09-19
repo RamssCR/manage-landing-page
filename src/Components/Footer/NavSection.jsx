@@ -3,7 +3,6 @@
  * @param {Object} props.footerLinks - Enlaces del footer organizados en columnas
  * @returns {import('react').JSX.Element}
  */
-
 const NavSection = ({ footerLinks }) => (
   <section className="flex flex-col md:flex-row gap-8 md:gap-40">
     <div className="flex flex-col gap-3">
