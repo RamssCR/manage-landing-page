@@ -1,3 +1,7 @@
+/**
+ * Componente email, formulario de suscripción
+ * @returns {import('react').JSX.Element}
+ */
 export default function Email() {
   return (
     <section className="flex flex-col justify-between gap-6">
@@ -9,7 +13,7 @@ export default function Email() {
         />
         <button
           type="submit"
-          className="shrink-0 cursor-pointer rounded-[30px] px-6 py-3 bg-orange-500 text-light"
+          className="shrink-0 cursor-pointer rounded-[30px] px-6 py-3 bg-hover text-light"
         >
           Go
         </button>

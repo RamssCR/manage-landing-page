@@ -1,3 +1,6 @@
+/** Componente donde se renderizan las redes sociales
+ * @returns {import('react').JSX.Element}
+ */
 export default function LogosSection() {
   return (
     <section className="flex flex-col-reverse md:flex-col items-center gap-10 md:justify-between">
