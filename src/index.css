@@ -14,6 +14,7 @@
   --color-muted: var(--color-blue-950);
   --color-accent: var(--color-orange-400);
   --color-foreground: var(--color-gray-950);
+  --color-hover: var(--color-orange-500);
 
   --color-primary-bg: var(--color-blue-950);
   --color-primary-contrast: #ffffff;
@@ -42,6 +43,7 @@
   --color-muted: var(--color-muted);
   --color-accent: var(--color-accent);
   --color-foreground: var(--color-foreground);
+  --color-hover: var(--color-hover);
 
   --color-primary-bg: var(--color-primary-bg);
   --color-primary-contrast: var(--color-primary-contrast);
