@@ -3,11 +3,9 @@
 
 :root {
   --color-orange-400: hsl(12, 88%, 59%);
-  --color-blue-950: hsl(228, 39%, 23%);
-
-  --color-gray-950: hsl(233, 12%, 13%);
   --color-orange-50: hsl(13, 100%, 96%);
-  --color-gray-50: hsl(0, 0%, 98%);
+  --color-blue-950: hsl(228, 39%, 23%);
+  --color-gray-950: hsl(233, 12%, 13%);
 
   --color-bg: var(--color-gray-50);
   --color-contrast: var(--color-gray-950);
@@ -23,6 +21,10 @@
   --color-primary-foreground: #ffffff;
 
   --color-secondary: var(--color-orange-400);
+  --color-secondary-bg: var(--color-gray-200);
+
+  --color-paragraph: var(--color-gray-400);
+  --color-shadow: var(--color-red-300);
 
   --color-background-light: var(--color-orange-50);
   --color-background-dark: var(--color-blue-950);
@@ -52,6 +54,10 @@
   --color-primary-foreground: var(--color-primary-foreground);
 
   --color-secondary: var(--color-secondary);
+  --color-secondary-bg: var(--color-secondary-bg);
+
+  --color-paragraph: var(--color-paragraph);
+  --color-shadow: var(--color-shadow);
 
   --color-background-light: var(--color-background-light);
   --color-background-dark: var(--color-background-dark);
@@ -63,7 +69,6 @@
   --color-warning: var(--color-warning);
   --color-info: var(--color-info);
 
-  /* Configuración de tipografía según el style guide */
   --font-family-base: 'Be Vietnam Pro', sans-serif;
   --font-weight-normal: 400;
   --font-weight-medium: 500;
@@ -80,7 +85,3 @@ body {
   background-color: var(--color-bg);
   background-image: none;
 }
-
-=========
-}
->>>>>>>>> Temporary merge branch 2
