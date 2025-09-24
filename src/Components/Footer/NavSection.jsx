@@ -1,6 +1,6 @@
 /**
- * @param {Object} props - Propiedades del componente
- * @param {Object} props.footerLinks - Enlaces del footer organizados en columnas
+ * @param {object} props - Propiedades del componente
+ * @param {object} props.footerLinks - Enlaces del footer organizados en columnas
  * @returns {import('react').JSX.Element}
  */
 const NavSection = ({ footerLinks }) => (

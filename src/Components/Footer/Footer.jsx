@@ -3,6 +3,9 @@ import LogosSection from './LogosSection'
 import NavSection from './NavSection'
 import { footerLinks } from '../../data/footerLinks.data.js'
 
+/**  Componente Footer.
+ * @returns {import('react').JSX.Element}
+ */
 export default function Footer() {
   return (
     <footer className="md:h-[300px] flex items-center justify-center bg-footer-bg w-full">
