@@ -1,5 +1,5 @@
+import BrandsMap from './LogosSection'
 import Email from './Email'
-import LogosSection from './LogosSection'
 import NavSection from './NavSection'
 import { footerLinks } from '../../data/footerLinks.data.js'
 
@@ -13,7 +13,7 @@ export default function Footer() {
         <p className="block md:hidden text-center md:text-right text-paragraph">
           Copyright 2020. All Rights Reserved
         </p>
-        <LogosSection />
+        <BrandsMap />
         <NavSection footerLinks={footerLinks} />
         <Email />
       </div>
