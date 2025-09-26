@@ -1,13 +1,13 @@
 export const footerLinks = {
   column1: [
-    { id: 1, label: 'Home', href: '#' },
-    { id: 2, label: 'Pricing', href: '#' },
-    { id: 3, label: 'Products', href: '#' },
-    { id: 4, label: 'About Us', href: '#' },
+    { id: 1, label: 'Home', href: 'home' },
+    { id: 2, label: 'Pricing', href: 'pricing' },
+    { id: 3, label: 'Products', href: 'products' },
+    { id: 4, label: 'About Us', href: 'about-us' },
   ],
   column2: [
-    { id: 5, label: 'Careers', href: '#' },
-    { id: 6, label: 'Community', href: '#' },
-    { id: 7, label: 'Privacy Policy', href: '#' },
+    { id: 5, label: 'Careers', href: 'careers' },
+    { id: 6, label: 'Community', href: 'community' },
+    { id: 7, label: 'Privacy Policy', href: 'privacy-policy' },
   ],
 }

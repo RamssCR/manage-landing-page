@@ -1,4 +1,4 @@
-import navLinks from './navLinks.data'
+import navLinks from '../../data/navLinks.data'
 
 /** Navdesktop component
  * @returns {import('react').JSX.Element}

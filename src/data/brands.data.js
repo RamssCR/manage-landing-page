@@ -25,3 +25,5 @@ export const brands = [
     'logo': './images/icons/icon-instagram.svg',
   },
 ]
+
+export default brands

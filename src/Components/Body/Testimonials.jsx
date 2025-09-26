@@ -22,7 +22,7 @@ export default function Testimonials() {
         What they've said
       </h2>
       <div
-        className="flex flex-col space-y-8 md:flex-row max-w-screen md:gap-3 md:space-y-0 justify-center px-8"
+        className="flex flex-col space-y-8 lg:flex-row max-w-screen md:gap-3 md:space-y-0 justify-center px-8"
         id="testimonials-container"
       >
         {testimonials.map(({ id, name, role, avatar, text }) => (

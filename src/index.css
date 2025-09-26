@@ -8,6 +8,7 @@
   --color-gray-950: hsl(233, 12%, 13%);
 
   --color-bg: var(--color-gray-50);
+  --color-footer-bg: var(--color-gray-950);
   --color-contrast: var(--color-gray-950);
   --color-muted: var(--color-blue-950);
   --color-accent: var(--color-orange-400);
@@ -40,7 +41,9 @@
 }
 
 @theme {
+
   --color-bg: var(--color-bg);
+  --color-footer-bg: var(--color-gray-950);
   --color-contrast: var(--color-contrast);
   --color-muted: var(--color-muted);
   --color-accent: var(--color-accent);
