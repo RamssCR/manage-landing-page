@@ -1,11 +1,11 @@
 /**
  * @returns {import('react').JSX.Element}
  */
-export default function HamburgerButton({ open = false, setOpen }) {
+export default function HamburgerButton({ open = false, toggle }) {
   return (
     <button
       type="button"
-      onClick={() => setOpen((prev) => !prev)}
+      onClick={toggle}
       className="md:hidden cursor-pointer z-50"
       aria-label="Toggle menu"
     >

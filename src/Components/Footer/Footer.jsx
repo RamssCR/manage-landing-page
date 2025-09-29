@@ -1,7 +1,7 @@
 import BrandsMap from './LogosSection'
 import Email from './Email'
 import NavSection from './NavSection'
-import { footerLinks } from '../../data/footerLinks.data.js'
+import footerLinks from '@data/footerLinks.data.json'
 
 /**  Componente Footer.
  * @returns {import('react').JSX.Element}

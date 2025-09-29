@@ -1,0 +1,7 @@
+[
+  { "id": 1, "href": "/pricing", "label": "Pricing" },
+  { "id": 2, "href": "/product", "label": "Product" },
+  { "id": 3, "href": "/about-us", "label": "About Us" },
+  { "id": 4, "href": "/careers", "label": "Careers" },
+  { "id": 5, "href": "/community", "label": "Community" }
+]

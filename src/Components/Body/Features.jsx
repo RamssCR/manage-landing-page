@@ -1,4 +1,4 @@
-import { features } from '/src/data/features.data.js'
+import features from '@data/features.data.json'
 
 /**
  * Componente para mostrar un elemento individual de característica

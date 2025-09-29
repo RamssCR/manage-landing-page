@@ -1,4 +1,4 @@
-import brands from '../../data/brands.data'
+import brands from '@data/brands.data.json'
 
 /** Componente donde se renderizan las redes sociales
  * @returns {import('react').JSX.Element}

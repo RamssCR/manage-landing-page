@@ -2,13 +2,13 @@ import CTAButton from './CTAButton'
 import HamburgerButton from './HamburgerButton'
 import NavDesktop from './NavDesktop'
 import NavMobile from './NavMobile'
-import { useState } from 'react'
+import useToggle from '../../hooks/useToggle'
 
 /** Header component
  * @returns {import('react').JSX.Element}
  */
 export default function Header() {
-  const [open, setOpen] = useState(false)
+  const { active, toggle } = useToggle(false)
 
   return (
     <header className="flex flex-row gap-5 md:flex-row items-center justify-between w-full max-w-[1200px] mx-auto mt-10 px-9 py-4 relative">
@@ -24,9 +24,9 @@ export default function Header() {
         <CTAButton />
       </div>
 
-      <HamburgerButton open={open} setOpen={setOpen} />
+      <HamburgerButton open={active} toggle={toggle} />
 
-      <NavMobile open={open} />
+      <NavMobile open={active} />
     </header>
   )
 }

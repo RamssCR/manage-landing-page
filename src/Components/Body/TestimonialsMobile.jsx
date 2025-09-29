@@ -1,4 +1,4 @@
-import testimonials from '../../data/testimonials.data'
+import testimonials from '@data/testimonials.data.json'
 import { useState } from 'react'
 
 const FIRST_INDEX = 0
