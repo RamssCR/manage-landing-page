@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion'
-import navLinks from './navLinks.data'
+import navLinks from '@data/navLinks.data.json'
 
 /** Navmobile component
  * @returns {import('react').JSX.Element}

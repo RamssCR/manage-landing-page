@@ -1,11 +1,7 @@
-import useToggle from '../../hooks/useToggle'
-
 /**
  * @returns {import('react').JSX.Element}
  */
-export default function HamburgerButton({ open = false }) {
-  const { active, toggle } = useToggle(open)
-
+export default function HamburgerButton({ open = false, toggle }) {
   return (
     <button
       type="button"
@@ -13,7 +9,7 @@ export default function HamburgerButton({ open = false }) {
       className="md:hidden cursor-pointer z-50"
       aria-label="Toggle menu"
     >
-      {active ? (
+      {open ? (
         <img
           src="./images/icons/icon-close.svg"
           alt="Close menu"

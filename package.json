@@ -13,6 +13,8 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "framer-motion": "^12.23.21",
+    "motion": "^12.23.22",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
@@ -39,7 +41,7 @@
     "jsdom": "^27.0.0",
     "lint-staged": "^16.2.0",
     "prettier": "^3.6.2",
-    "tailwindcss": "^4.1.12",
+    "tailwindcss": "^4.1.13",
     "vite": "^7.1.2",
     "vite-tsconfig-paths": "^5.1.4",
     "vitest": "^3.2.4"

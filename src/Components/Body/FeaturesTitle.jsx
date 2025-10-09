@@ -5,7 +5,7 @@
 export default function FeaturesTitle() {
   return (
     <section>
-      <div className="md:max-w-[400px]">
+      <div className="sm:block hidden md:max-w-[400px]">
         <h1 className="text-[35px] text-9xl font-extrabold text-primary-bg leading-tight mb-6">
           What's different about Manage?
         </h1>

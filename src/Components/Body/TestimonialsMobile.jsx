@@ -1,4 +1,4 @@
-import testimonials from '../../data/testimonials.data'
+import testimonials from '@data/testimonials.data.json'
 import { useState } from 'react'
 
 const FIRST_INDEX = 0
@@ -21,21 +21,12 @@ const NEXT_INCREMENT = 1
  */
 const TestimonialsMobile = () => {
   const [current, setCurrent] = useState(FIRST_INDEX)
-  /** Avanza al siguiente testimonio o vuelve al primero si está en el último.
-   */
-  const handleNext = () => {
-    if (current === testimonials.length - NEXT_INCREMENT) {
-      setCurrent(FIRST_INDEX)
-    } else {
-      setCurrent(current + NEXT_INCREMENT)
-    }
-  }
   /**
    * Selecciona un testimonio específico por índice.
-   * @param {number} index - Índice
+   * @param {number} id
    */
-  const handleSelect = (index) => {
-    setCurrent(index)
+  const handleSelect = (id) => {
+    setCurrent(id)
   }
   const testimonial = testimonials[current]
   return (
@@ -61,7 +52,6 @@ const TestimonialsMobile = () => {
       </div>
       <button
         type="button"
-        onClick={handleNext}
         className="cursor-pointer bg-accent hover:bg-accent text-light px-6 py-3 rounded-full font-semibold transition-colors"
       >
         Get Started
