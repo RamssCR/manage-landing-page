@@ -8,7 +8,7 @@ export const BrandsMap = () => (
     <div>
       <img src="./images/images/logo.svg" alt="logo" />
     </div>
-    <div className="flex">
+    <div className="flex gap-1">
       {brands.map((brand) => (
         <img key={brand.id} src={brand.logo} alt={brand.name} />
       ))}
